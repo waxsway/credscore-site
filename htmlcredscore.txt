@@ -1,0 +1,245 @@
+!doctype html
+html lang=en
+head
+  meta charset=utf-8 
+  meta name=viewport content=width=device-width,initial-scale=1 
+  titleCredScore  Trust Briefs for Counterparty Decisionstitle
+  meta name=description content=CredScore provides independent, decision-grade on-chain risk assessments so teams can decide who to lend to, partner with, or grant access to. 
+  style
+    root{
+      --bg#0b1220; --card#101a2f; --text#e8eefc; --muted#a9b8da;
+      --accent#4ea1ff; --accent2#7c5cff; --danger#ff5c7a; --line#22304d;
+    }
+    {box-sizingborder-box}
+    body{margin0;font-familyui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      backgroundradial-gradient(1200px 600px at 20% 0%, rgba(78,161,255,.18), transparent 60%),
+                 radial-gradient(1000px 500px at 80% 10%, rgba(124,92,255,.16), transparent 55%),
+                 var(--bg);
+      colorvar(--text);
+    }
+    a{colorinherit}
+    .wrap{max-width1080px;margin0 auto;padding28px}
+    .nav{displayflex;align-itemscenter;justify-contentspace-between;gap14px}
+    .brand{displayflex;align-itemscenter;gap10px;font-weight700;letter-spacing.2px}
+    .logo{width34px;height34px;border-radius10px;backgroundlinear-gradient(135deg,var(--accent),var(--accent2))}
+    .navlinks{displayflex;gap18px;colorvar(--muted);font-size14px}
+    .btn{displayinline-flex;align-itemscenter;justify-contentcenter;gap10px;
+      padding12px 14px;border-radius12px;border1px solid rgba(255,255,255,.12);
+      backgroundrgba(255,255,255,.06);text-decorationnone;font-weight600}
+    .btn.primary{backgroundlinear-gradient(135deg,var(--accent),var(--accent2));bordernone}
+    .hero{padding56px 0 24px;displaygrid;grid-template-columns1.2fr .8fr;gap26px}
+    @media(max-width900px){.hero{grid-template-columns1fr}}
+    h1{margin0;font-size46px;line-height1.05}
+    .lead{colorvar(--muted);font-size18px;line-height1.55;margin14px 0 22px}
+    .pillrow{displayflex;flex-wrapwrap;gap10px;margin-top16px}
+    .pill{padding8px 10px;border1px solid rgba(255,255,255,.12);border-radius999px;colorvar(--muted);font-size13px;backgroundrgba(255,255,255,.04)}
+    .card{backgroundrgba(16,26,47,.72);border1px solid rgba(255,255,255,.10);border-radius18px;padding18px}
+    .grid{displaygrid;grid-template-columnsrepeat(3,1fr);gap14px}
+    @media(max-width900px){.grid{grid-template-columns1fr}}
+    .h2{font-size22px;margin0 0 10px}
+    .muted{colorvar(--muted);line-height1.6}
+    .section{padding26px 0}
+    .kicker{colorrgba(232,238,252,.85);font-weight700;margin0 0 10px}
+    ul{margin10px 0 0 18px;colorvar(--muted);line-height1.7}
+    .pricing{displaygrid;grid-template-columnsrepeat(3,1fr);gap14px}
+    @media(max-width900px){.pricing{grid-template-columns1fr}}
+    .price{font-size34px;font-weight800;margin8px 0}
+    .tag{displayinline-block;margin-top10px;padding6px 10px;border-radius999px;font-size12px;
+      border1px solid rgba(255,255,255,.12);colorvar(--muted);backgroundrgba(255,255,255,.04)}
+    .faq details{border-top1px solid var(--line);padding14px 0}
+    .faq summary{cursorpointer;font-weight700}
+    .footer{border-top1px solid var(--line);padding20px 0;colorvar(--muted);font-size12px;line-height1.6}
+    input,textarea{width100%;padding12px 12px;border-radius12px;border1px solid rgba(255,255,255,.14);
+      backgroundrgba(255,255,255,.05);colorvar(--text);outlinenone}
+    textarea{min-height110px;resizevertical}
+    .row{displaygrid;grid-template-columns1fr 1fr;gap12px}
+    @media(max-width900px){.row{grid-template-columns1fr}}
+    .small{font-size13px;colorvar(--muted)}
+  style
+head
+body
+  div class=wrap
+    div class=nav
+      div class=brand
+        div class=logodiv
+        divCredScorediv
+      div
+      div class=navlinks
+        a href=#product style=text-decorationnoneProducta
+        a href=#how style=text-decorationnoneHow it worksa
+        a href=#pricing style=text-decorationnonePricinga
+        a href=#faq style=text-decorationnoneFAQa
+      div
+      a class=btn primary href=#contactRequest a pilota
+    div
+
+    div class=hero
+      div class=card
+        div class=kickerIndependent counterparty screeningdiv
+        h1Trust Briefs for lending, partnerships, and access decisions.h1
+        p class=lead
+          CredScore delivers decision grade on-chain risk assessments that help teams decide who to proceed with, proceed with restrictions, or avoid.
+          No scores. No hype. No guarantees. Just documented judgment.
+        p
+        div style=displayflex;gap12px;flex-wrapwrap
+          a class=btn primary href=#contactRequest a pilot Trust Briefa
+          a class=btn href=#productSee what you receivea
+        div
+        div class=pillrow
+          div class=pillPublic chain data onlydiv
+          div class=pillAI assisted, human revieweddiv
+          div class=pillDefensible written artifactdiv
+          div class=pillConservative and evidence linkeddiv
+        div
+      div
+
+      div class=card
+        div class=kickerDeliverablediv
+        p class=muted style=margin-top0
+          A 2 to 3 page Trust Brief with
+        p
+        ul
+          liClear recommendation Proceed, Proceed with Restrictions, Do Not Proceedli
+          liKey risk signals and correlated pattern reasoningli
+          liOn-chain evidence and assumptionsli
+          liUncertainty factors and mitigation optionsli
+        ul
+        div class=tagDesigned for real decision makersdiv
+      div
+    div
+
+    div id=product class=section
+      div class=grid
+        div class=card
+          div class=h2What CredScore isdiv
+          p class=mutedAn independent risk opinion built from observable on-chain behavior, delivered as a written decision artifact.p
+        div
+        div class=card
+          div class=h2What CredScore is notdiv
+          p class=mutedNot a score, not a guarantee, not identity verification, not legal or compliance advice.p
+        div
+        div class=card
+          div class=h2Best use casesdiv
+          p class=mutedLending, onboarding, privileged access, partnerships, escrow decisions, and treasury risk decisions.p
+        div
+      div
+    div
+
+    div id=how class=section
+      div class=card
+        div class=h2How it worksdiv
+        div class=grid style=margin-top10px
+          div
+            div class=kicker1. Intakediv
+            div class=mutedYou provide wallet address(es), chain, decision context, and risk tolerance.div
+          div
+          div
+            div class=kicker2. Analysisdiv
+            div class=mutedWe evaluate provenance, behavior, counterparty quality, temporal signals, and risk clustering.div
+          div
+          div
+            div class=kicker3. Deliverydiv
+            div class=mutedYou receive a Trust Brief with a recommendation and mitigation options if applicable.div
+          div
+        div
+      div
+    div
+
+    div id=pricing class=section
+      div class=h2 style=margin0 0 12pxPricingdiv
+      div class=pricing
+        div class=card
+          div class=kickerPilotdiv
+          div class=price$0 to $1kdiv
+          div class=mutedOne Trust Brief for a real decision. Used to validate fit and workflow.div
+          ul
+            liSingle decision contextli
+            liEvidence linked summaryli
+            liFeedback requestedli
+          ul
+        div
+        div class=card style=border1px solid rgba(78,161,255,.35)
+          div class=kickerStandarddiv
+          div class=price$2,500div
+          div class=mutedMonthly subscription for recurring screening needs.div
+          ul
+            liDefined monthly brief volumeli
+            liPriority turnaroundli
+            liMitigation recommendationsli
+          ul
+          div class=tagMost commondiv
+        div
+        div class=card
+          div class=kickerEnterprisediv
+          div class=price$5k+div
+          div class=mutedHigher volume, custom framework adjustments, and tighter response times.div
+          ul
+            liCustom risk lensli
+            liEscalation and review processli
+            liOptional monitoringli
+          ul
+        div
+      div
+      p class=small style=margin-top12pxPrices are starting points. Exact scope is defined per engagement.p
+    div
+
+    div id=faq class=section
+      div class=card faq
+        div class=h2FAQdiv
+        details open
+          summaryWhy not just screen wallets ourselvessummary
+          div class=muted style=margin-top8pxYou can. CredScore provides a consistent framework, independent judgment, and a documented artifact you can defend when decisions are challenged.div
+        details
+        details
+          summaryIs CredScore guaranteeing safety or preventing fraudsummary
+          div class=muted style=margin-top8pxNo. CredScore provides probabilistic risk opinions based on observable on-chain behavior. Final decisions remain with the client.div
+        details
+        details
+          summaryWhat data do you usesummary
+          div class=muted style=margin-top8pxPublicly observable blockchain data for the provided wallets within the defined time window. We do not perform identity verification.div
+        details
+        details
+          summaryHow does CredScore stay relevant as AI improvessummary
+          div class=muted style=margin-top8pxAI is a tool inside the process. The product is disciplined judgment, documentation, and accountability boundaries, delivered as decision artifacts.div
+        details
+      div
+    div
+
+    div id=contact class=section
+      div class=card
+        div class=h2Request a pilotdiv
+        p class=mutedSend the decision context and wallet address(es). We will reply with scope and timeline.p
+        form action=httpsformspree.iofyourformid method=POST
+          div class=row
+            div
+              label class=smallNamelabel
+              input name=name placeholder=Your name required 
+            div
+            div
+              label class=smallEmaillabel
+              input name=email type=email placeholder=you@domain.com required 
+            div
+          div
+          div style=margin-top12px
+            label class=smallDecision context and wallet addresseslabel
+            textarea name=message placeholder=Example considering a loan to wallet 0x..., looking for a proceed or do not proceed recommendation. Include chain and time window if needed. requiredtextarea
+          div
+          div style=margin-top12px;displayflex;gap12px;align-itemscenter;flex-wrapwrap
+            button class=btn primary type=submitSubmit pilot requestbutton
+            div class=smallReplace the Formspree URL with your own form endpoint.div
+          div
+        form
+      div
+    div
+
+    div class=footer
+      divstrongDisclaimerstrong CredScore provides informational risk opinions based on observable on-chain behavior. CredScore does not provide legal, financial, or compliance advice. CredScore makes no warranties and assumes no liability for outcomes resulting from decisions informed by its assessments.div
+      div style=margin-top8px© span id=yspan CredScore. All rights reserved.div
+    div
+  div
+
+  script
+    document.getElementById(y).textContent = new Date().getFullYear();
+  script
+body
+html
